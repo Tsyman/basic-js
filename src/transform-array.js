@@ -2,10 +2,6 @@ module.exports = function transform(arr) {
     if (Array.isArray(arr) == !true) {
         throw new Error("error");
     }
-
-    if(!arr.length) {
-        return arr;
-    }
     
     let newArr = [];
 
